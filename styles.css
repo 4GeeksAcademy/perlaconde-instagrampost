@@ -1,0 +1,56 @@
+/* Add styles here */
+.post-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-img > img{
+    width: 100%;
+    height: auto;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post-profile > i {
+    width: 20%;
+}
+
+.profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
